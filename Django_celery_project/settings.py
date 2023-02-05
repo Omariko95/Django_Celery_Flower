@@ -28,7 +28,7 @@ CELERY_RESULT_SERIALIZER = 'json'
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = '46467gfdgdfsg46fg8usfgd5fg4gds454g876'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -47,8 +47,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Django_celery_app',
     'celery',
-    'django_celery_results',# To store Celery task results using Django ORM
-    'django_celery_beat', # To store periodic task schedule in the database
+    'django_celery_results',
+    'django_celery_beat',
 ]
 
 MIDDLEWARE = [
