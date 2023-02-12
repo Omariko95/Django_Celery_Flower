@@ -1,2 +1,7 @@
 # Django_Celery_Flower
- Django Celery Flower project
+ 
+ **Project Summary**
+
+Project built for Aynchoronous workflow simulation using Python/Django/Celery.
+
+
